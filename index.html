@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Yuklanmoqda...</title>
+    <script>
+        window.onload = function() {
+            var pdfURL = "document_23677_853.pdf"; // PDF fayl URL manzili
+            var link = document.createElement("a");
+            link.href = pdfURL;
+            link.download = "document_23677_853.pdf"; // Yuklab olinadigan fayl nomi
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        };
+    </script>
+</head>
+<body>
+    <h2>PDF avtomatik yuklanmoqda...</h2>
+</body>
+</html>
